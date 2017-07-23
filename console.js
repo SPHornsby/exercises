@@ -1,4 +1,8 @@
-
+  /**
+  * To use this, just load the index.html in the browser.
+  * It will run through the fake UI in a loop.
+  */
+  
 const root = 'https://jsonplaceholder.typicode.com'
 const possibleComments = [
   {body: "Great Post!"},
