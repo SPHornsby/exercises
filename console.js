@@ -86,7 +86,7 @@ const displayController = {
     * @returns {Array} The list of users
     */
     console.log("Displaying Users:")
-    userList.map(user => console.log(user.username))
+    userList.forEach(user => console.log(user.username))
     return userList
   },
   showUserProfile: (user) => {
@@ -112,7 +112,7 @@ const displayController = {
       userPosts :
       userPosts.slice(userPosts.length - 5)
     console.log('Last five(5) posts: ')
-    lastFive.map((post, i) => {
+    lastFive.forEach((post, i) => {
       console.log(`Post ${i+1}: ${post.title}`)
     })
     return lastFive
