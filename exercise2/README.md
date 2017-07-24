@@ -2,6 +2,8 @@
 
 Module loader
 
+This exercise requires an `npm install` for the jest dependency.
+
 Type `jest` to run tests.
 
 Type `node app.js` to run the app.
