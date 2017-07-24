@@ -13,3 +13,7 @@ define('capitalize', (string) => {
   return string[0].toUpperCase() + string.substring(1)
 })
 const capitalized = requireSH('capitalize')('lower') // 'Lower'
+
+console.log(sumResult)
+console.log(productResult)
+console.log(capitalized)
